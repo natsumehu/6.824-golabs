@@ -113,6 +113,7 @@ func makeInputs(num int) []string {
 		w.Flush()
 		file.Close()
 	}
+
 	return names
 }
 
